@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ColorPicker from "./ColorPicker";
+import Greeting from "./Greeting";
 
 function App() {
   const red = "#EE4B2B";
@@ -9,11 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <ColorPicker red={red} blue={blue} green={green} />
+      <Greeting red={red} blue={blue} green={green} />
     </div>
   );
 }
 
 export default App;
-
-// Build a "Todo" React component that takes a prop called "todoItems". Inside the component, Display the title of a to-do item in a heading tag and the description in a paragraph. If the todoItem is completed, show the title and description in green color otherwise in red color.
